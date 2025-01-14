@@ -40,13 +40,17 @@ FASE 2A:
 
 Foi criada uma medida DAX, “m_faturamento”, que multiplica a quantidade vendida pelo preço unitário (função SUMX). Em seguida, um Parâmetro possibilita ao usuário escolher a métrica principal (Faturamento, Preço Unitário ou Quantidade de Produtos) em cada visualização. Observando o Faturamento, destaca-se o crescimento do PRODUTO 6 para o público feminino, partindo de 57 mil em janeiro e alcançando 152 mil em março. Para o público masculino, o PRODUTO 3 mostra trajetória similar, indo de 42 mil para 151 mil no mesmo período. Essa análise confirma que esses produtos conciliam bom volume de vendas e preços ascendentes, sendo estratégicos para maximizar retorno financeiro em cada segmento de gênero.
 
+![Screenshot 2025-01-14 at 17 00 38](https://github.com/user-attachments/assets/430a94a5-43c0-44c2-8e17-7ad73299ef76)
+
 FASE 2B:
 
 Aqui, criou-se uma coluna calculada chamada “periodo_venda” para agrupar o horário de venda em intervalos de uma hora. A mesma lógica de Parâmetro permite filtrar a métrica principal, e, considerando o Faturamento, evidencia-se que o intervalo de 19h00 às 20h00 gera R$ 342,17 mil no conjunto total de filiais, sendo também o pico na Filial B e um dos mais altos na A. Já na Filial A, o período de 12h00 às 13h00 se destaca, enquanto na Filial C o horário mais rentável é entre 10h00 e 11h00. Dessa forma, alocar funcionários terceirizados entre 19h00 e 20h00 atende melhor às demandas da maioria das unidades, enquanto 12h00 às 13h00 e 10h00 às 11h00 também merecem atenção.
+
+![Screenshot 2025-01-14 at 17 00 55](https://github.com/user-attachments/assets/af232891-0007-4f24-b6d6-279e03cc0610)
 
 FASE 2C:
 
 Nesta análise, cruzaram-se variáveis como “num_avaliacao”, “nom_filial” e outras características para detectar possíveis problemas de satisfação. Em geral, todas as filiais mostram distribuições de notas relativamente próximas, com a Filial C destacando-se positivamente pelo maior número de avaliações nota 10 e menor incidência de nota 2. Embora existam diferenças como predominância de clientes “member” ou “normal” e variações nos produtos mais avaliados, não há sinal de grave insatisfação. Observa-se que a Filial C obtém resultados mais sólidos em engajamento e avaliação, indicando a oportunidade de compartilhar suas boas práticas com as demais unidades, em vez de se concentrar em eventuais falhas pontuais.
 
-![Screenshot 2025-01-14 at 16 55 42](https://github.com/user-attachments/assets/079ec90c-6e0f-47c6-b143-4aa31287f04f)
+![Screenshot 2025-01-14 at 17 01 05](https://github.com/user-attachments/assets/48530221-fbde-424c-ab9d-79e0939b022b)
 
