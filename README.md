@@ -28,17 +28,16 @@ In **Phase 1**, data transformations and manipulations are performed using SQL i
 
 **Phase 2A**: A DAX measure, “m_faturamento,” was created to calculate revenue by multiplying sold quantities by unit prices (using SUMX). A parameter was implemented to let users select the primary metric (Revenue, Unit Price, or Product Quantity) for each visualization. Revenue analysis highlighted the growth of PRODUCT 6 among female customers, increasing from R$57,000 in January to R$152,000 in March. Similarly, PRODUCT 3 showed comparable growth for male customers, rising from R$42,000 to R$151,000 in the same period. These insights confirmed the strategic value of these products for maximizing financial returns within each gender segment.
 
-![Screenshot 2025-01-14 at 17 00 38](https://github.com/user-attachments/assets/430a94a5-43c0-44c2-8e17-7ad73299ef76)
+![Screenshot 2025-01-15 at 08 20 38](https://github.com/user-attachments/assets/140df707-62c7-4473-9579-780ca693d4d3)
 
 FASE 2B:
 
 A calculated column named “periodo_venda” was created to group sales times into one-hour intervals. Using the same parameter logic, the primary metric can be filtered, and revenue analysis reveals that the 7:00 PM to 8:00 PM time slot generates R$342,170 across all branches, making it the peak period for Branch B and one of the highest for Branch A. In contrast, for Branch A, the 12:00 PM to 1:00 PM slot stands out, while for Branch C, the most profitable period is between 10:00 AM and 11:00 AM. Consequently, allocating outsourced staff between 7:00 PM and 8:00 PM addresses critical demand in most branches, with 12:00 PM to 1:00 PM and 10:00 AM to 11:00 AM also warranting attention.
 
-![Screenshot 2025-01-14 at 17 00 55](https://github.com/user-attachments/assets/af232891-0007-4f24-b6d6-279e03cc0610)
+![Screenshot 2025-01-15 at 08 21 00](https://github.com/user-attachments/assets/39587e1d-8257-46a5-95a9-ee4aeb1c52fa)
 
 FASE 2C:
 
 This analysis examined variables such as “num_avaliacao,” “nom_filial,” and other characteristics to identify potential satisfaction issues. Overall, all branches exhibit relatively similar score distributions, with Branch C standing out positively for having the highest number of 10-rated evaluations and the lowest incidence of 2-rated scores. While differences exist, such as the predominance of "member" or "normal" clients and variations in the most evaluated products, no significant dissatisfaction was detected. Branch C demonstrates stronger engagement and evaluation results, presenting an opportunity to share its best practices with other units rather than focusing on isolated shortcomings.
 
-![Screenshot 2025-01-14 at 17 01 05](https://github.com/user-attachments/assets/48530221-fbde-424c-ab9d-79e0939b022b)
-
+![Screenshot 2025-01-15 at 08 21 11](https://github.com/user-attachments/assets/50e80b86-d207-4bc1-942f-40e8c94143d0)
