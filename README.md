@@ -8,6 +8,8 @@ The project's focus is on addressing critical business questions, such as identi
 
 **Keywords**: SQL, PowerBI, PowerQuery, DAX, Google Cloud Platform, Business Analytics, BigQuery, Data Visualization, Data Analysis.
 
+**Dashboard Link**: https://app.powerbi.com/groups/me/reports/f29b9ccb-0416-4765-8c89-5fc1b29e5d1b?ctid=18a01ad8-9727-498a-a47d-17374c6fd9f7&pbi_source=linkShare
+
 # ✅ PROCESS
 
 In **Phase 1**, data transformations and manipulations are performed using SQL in the Google Cloud Platform (GCP) environment. The first step addresses the date column in the “Fato_Vendas” table, correcting inconsistencies caused by a system issue that recorded all dates as 2019. These dates will be updated to 2022 while preserving the original days and months. Next, a new column, “vlr_margem_bruta,” will be created, calculated based on “vlr_preco_total,” which combines unit price and tax. Before this, null values in the “vlr_preco_unitario” column will be corrected using the average price of the last 20 days, segmented by gender, product line, and branch. Once corrected, the gross margin calculation will be completed. Finally, a table will be generated to distribute a monthly investment of R$ 10,000 per branch, based on the number of products sold per product line and month. This table will include details on relative participation and the exact investment value.
@@ -28,16 +30,16 @@ In **Phase 1**, data transformations and manipulations are performed using SQL i
 
 **Phase 2A**: A DAX measure, “m_faturamento,” was created to calculate revenue by multiplying sold quantities by unit prices (using SUMX). A parameter was implemented to let users select the primary metric (Revenue, Unit Price, or Product Quantity) for each visualization. Revenue analysis highlighted the growth of PRODUCT 6 among female customers, increasing from R$57,000 in January to R$152,000 in March. Similarly, PRODUCT 3 showed comparable growth for male customers, rising from R$42,000 to R$151,000 in the same period. These insights confirmed the strategic value of these products for maximizing financial returns within each gender segment.
 
-![Screenshot 2025-01-15 at 08 20 38](https://github.com/user-attachments/assets/140df707-62c7-4473-9579-780ca693d4d3)
+![Screenshot 2025-01-16 at 17 15 59](https://github.com/user-attachments/assets/6c1cd3db-e0d3-4892-b65d-cc26ffdbfcb2)
 
 FASE 2B:
 
 A calculated column named “periodo_venda” was created to group sales times into one-hour intervals. Using the same parameter logic, the primary metric can be filtered, and revenue analysis reveals that the 7:00 PM to 8:00 PM time slot generates R$342,170 across all branches, making it the peak period for Branch B and one of the highest for Branch A. In contrast, for Branch A, the 12:00 PM to 1:00 PM slot stands out, while for Branch C, the most profitable period is between 10:00 AM and 11:00 AM. Consequently, allocating outsourced staff between 7:00 PM and 8:00 PM addresses critical demand in most branches, with 12:00 PM to 1:00 PM and 10:00 AM to 11:00 AM also warranting attention.
 
-![Screenshot 2025-01-15 at 08 21 00](https://github.com/user-attachments/assets/39587e1d-8257-46a5-95a9-ee4aeb1c52fa)
+![Screenshot 2025-01-16 at 17 16 09](https://github.com/user-attachments/assets/c6dfe36a-ea01-44a9-9049-8f82c271d9e3)
 
 FASE 2C:
 
 This analysis examined variables such as “num_avaliacao,” “nom_filial,” and other characteristics to identify potential satisfaction issues. Overall, all branches exhibit relatively similar score distributions, with Branch C standing out positively for having the highest number of 10-rated evaluations and the lowest incidence of 2-rated scores. While differences exist, such as the predominance of "member" or "normal" clients and variations in the most evaluated products, no significant dissatisfaction was detected. Branch C demonstrates stronger engagement and evaluation results, presenting an opportunity to share its best practices with other units rather than focusing on isolated shortcomings.
 
-![Screenshot 2025-01-15 at 08 21 11](https://github.com/user-attachments/assets/50e80b86-d207-4bc1-942f-40e8c94143d0)
+![Screenshot 2025-01-16 at 17 16 21](https://github.com/user-attachments/assets/b19f0ba5-da03-4f25-b10a-29ba9b34efce)
