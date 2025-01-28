@@ -18,7 +18,7 @@ Initially, the business problem is defined and the dataset is selected, such as 
 
 Next, variable selection and filter methods are introduced. As explained earlier, this project is developed in parallel both in R Language and in Azure Machine Learning. Thus, within Azure Machine Learning, two packages were created to select the variables, namely: “Filter Based Feature Selection” and “Permutation Feature Importance”. A third algorithm for the selection of the main variables was developed in Language R, when comparing the three, it is clear that the algorithm written in Language R with Random Forrest has a better performance, and therefore we will continue with it.
 
-![1](https://github.com/user-attachments/assets/02cc4f21-854f-4c27-ae70-6c1ba7ebfb5c)
+![1](https://github.com/user-attachments/assets/aa12c51f-25f4-475e-bf98-0ed62c2f1f76)
 
 ![image](https://github.com/lucashomuniz/PROJECT-6/assets/123151332/d7110c5a-6e9a-4ec0-9a08-af2bb94c03b8)
 
