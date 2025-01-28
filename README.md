@@ -20,8 +20,6 @@ Next, variable selection and filter methods are introduced. As explained earlier
 
 ![1](https://github.com/user-attachments/assets/aa12c51f-25f4-475e-bf98-0ed62c2f1f76)
 
-![image](https://github.com/lucashomuniz/PROJECT-6/assets/123151332/d7110c5a-6e9a-4ec0-9a08-af2bb94c03b8)
-
 The experiment is built around four algorithms (three in Azure and one in R). The three predictive models of Azure Machine Learning are Bayesian, Neural Network and SVM. Models are trained, their results interpreted and evaluated with appropriate metrics. Comparing the models helps to identify the most effective one. 
 
 ![image](https://github.com/lucashomuniz/PROJECT-6/assets/123151332/5db634ce-bfa4-4b61-afe4-27ab7c565044)
