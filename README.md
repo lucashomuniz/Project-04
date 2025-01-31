@@ -8,8 +8,6 @@ The project is centered around answering critical business questions, including 
 
 **Keywords**: SQL, PowerBI, PowerQuery, DAX, Google Cloud Platform, Business Analytics, BigQuery, Data Visualization, Data Analysis.
 
-**Dashboard Link**: https://app.powerbi.com/groups/me/reports/f29b9ccb-0416-4765-8c89-5fc1b29e5d1b?ctid=18a01ad8-9727-498a-a47d-17374c6fd9f7&pbi_source=linkShare
-
 # ✅ PROCESS
 
 In **Phase 1**, **data transformations** and **manipulations** are conducted using **SQL** within the **Google Cloud Platform (GCP)** environment. The process begins by addressing the **date inconsistencies** in the “Fato_Vendas” table, where all dates were incorrectly recorded as 2019 due to a system issue. These dates are updated to **2022**, retaining their original days and months. A new column, **“vlr_margem_bruta”**, is then created, calculated from **“vlr_preco_total”**, which incorporates unit price and tax. To ensure accuracy, null values in the **“vlr_preco_unitario”** column are corrected using the **average price of the last 20 days**, segmented by **gender**, **product line**, and **branch**. Following these corrections, the **gross margin** calculation is completed. The phase concludes with the creation of a table to distribute a **monthly investment** of **R$ 10,000 per branch**, based on the **number of products sold per product line and month**. This table includes details on **relative participation** and the exact **investment allocation**.
