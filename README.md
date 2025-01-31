@@ -1,4 +1,4 @@
-# ✅ PROJECT-06
+# ✅ PROJECT-04
 
 This project develops a **predictive model** to evaluate **credit risk** in a **banking institution** by constructing a **classification model** that forecasts the probability of granting credit. The **target variable** is **CreditStatus**, and the model is trained on a dataset representing customers applying for a credit line. Ensuring high accuracy is vital, as extending credit to clients with low repayment capacity can lead to substantial financial losses. For comparative analysis, **Bayesian**, **Neural Network**, and **SVM** algorithms available in **Azure** are assessed.
 
