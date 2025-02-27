@@ -36,4 +36,5 @@ In **Phase 1**, **data transformations** and **manipulations** are conducted usi
 
 **Phase 2C**: This analysis evaluated variables such as **“num_avaliacao,”** **“nom_filial,”** and related characteristics to detect potential satisfaction issues. The findings reveal that all branches exhibit relatively **similar score distributions**, with **Branch C** standing out for having the **highest number of 10-rated evaluations** and the **lowest incidence of 2-rated scores.** While some differences were observed, such as the predominance of **"member"** or **"normal"** clients and variations in the **most evaluated products**, no significant dissatisfaction trends were identified. **Branch C** demonstrates **stronger engagement** and **positive evaluation outcomes**, suggesting an opportunity to share its **best practices** with other branches rather than addressing isolated shortcomings.
 
-![Screenshot 2025-01-16 at 17 16 21](https://github.com/user-attachments/assets/b19f0ba5-da03-4f25-b10a-29ba9b34efce)
+![Screenshot 2025-02-27 at 09 03 46](https://github.com/user-attachments/assets/761f0206-ebc7-4383-9d38-91e86a221402)
+
