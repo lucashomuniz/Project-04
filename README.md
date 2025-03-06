@@ -35,7 +35,3 @@ There are multiple **machine learning** algorithms applicable to various **probl
 The choice of **algorithm** depends on the **context**, **data characteristics**, and **project objectives**. careful experimentation is recommended to assess **performance** before selecting a final approach. After evaluating the five **algorithms**, **random forest** achieved the best **performance** using the **auc score**. despite these results, there are additional **optimization** possibilities, such as incorporating more **relevant variables**, tuning different **hyperparameters**, extending **training time**, and revisiting **data preprocessing**. 
 
 **Machine learning** is an iterative process, allowing repeated cycles of improvement from the initial **analysis** phase. Once the **best model** is chosen, it can be used to generate **predictions** for multiple **patients** simultaneously by loading their data from a **.csv** file. after **standardization**, the **results** can be saved in a new **spreadsheet** and provided to the **business** team for **decision-making** purposes.
-
-# ✅ SOURCE
-
-https://archive.ics.uci.edu/dataset/225/ilpd+indian+liver+patient+dataset
