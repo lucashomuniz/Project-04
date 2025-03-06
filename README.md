@@ -16,7 +16,7 @@ Next is **attribute engineering**, where deeper transformations may be performed
 
 After that, we move on to **preprocessing**, converting any remaining text-based variables to numeric formats and finalizing the **machine learning** pipeline, which includes **label encoding**, **normalization**, **standardization**, and **data scaling**. a common practice is to split the **dataframe** into **training** and **testing** sets, ensuring the model learns from the **training** set and is evaluated on fresh **test** data. using the same data for both **training** and **testing** is inadvisable, as the model would already be familiar with it. thus, evaluating the model on new data—with known outcomes—provides an accurate measure of its **performance**.
 
-![image](https://github.com/lucashomuniz/Project-11/assets/123151332/2e468d48-0c6b-461f-89aa-3a449d451928)
+![Screenshot 2025-03-06 at 20 41 31](https://github.com/user-attachments/assets/e6e074bf-3ca2-4eb1-b25a-fb4d6e8abcc6)
 
 # ✅ CONCLUSION
 
@@ -31,8 +31,6 @@ There are multiple **machine learning** algorithms applicable to various **probl
 - **decision tree**: an intuitive algorithm that is easy to interpret and visualize, handling both **categorical** and **numeric variables** efficiently. it can be prone to **overfitting** and may require careful tuning to find an optimal **tree** structure.
 
 - **svm (support vector machines)**: well-suited for **complex decision boundaries** and **high-dimensional** data, used in both **classification** and **regression** tasks. it is less susceptible to **overfitting**, but choosing the right **kernel** and **hyperparameters** can be challenging, and interpreting the **model** is often more difficult compared to other algorithms.
-
-![image](https://github.com/lucashomuniz/Project-11/assets/123151332/dbccb0a6-d952-4d11-a721-509eb49889db)
 
 The choice of **algorithm** depends on the **context**, **data characteristics**, and **project objectives**. careful experimentation is recommended to assess **performance** before selecting a final approach. After evaluating the five **algorithms**, **random forest** achieved the best **performance** using the **auc score**. despite these results, there are additional **optimization** possibilities, such as incorporating more **relevant variables**, tuning different **hyperparameters**, extending **training time**, and revisiting **data preprocessing**. 
 
