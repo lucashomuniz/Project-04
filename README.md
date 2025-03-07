@@ -12,11 +12,13 @@ Based on the **business problem** definition and **dataframe** analysis, it is o
 
 we begin with **exploratory analysis** immediately after loading the data. this involves **data cleaning** (removing **duplicates**, handling **missing values**) and applying specific transformations if needed. the focus is on understanding the **dataframe**, examining **numerical** and **categorical** variables, exploring their distributions, and identifying **outliers** via **boxplots**, descriptive tables, and **frequency counts**. ensuring there are no duplicate rows or columns is critical to prevent bias in the **model**. the goal is to achieve a **generalizable** solution.
 
+![Screenshot 2025-03-06 at 20 41 31](https://github.com/user-attachments/assets/e6e074bf-3ca2-4eb1-b25a-fb4d6e8abcc6)
+
 Next is **attribute engineering**, where deeper transformations may be performed, including creating or modifying variables. at this stage, **feature selection** can be employed to choose the most relevant variables for the **machine learning** process. additionally, constructing a **correlation table** helps uncover relationships (positive or negative) between variables and detect possible **multicollinearity**.
 
 After that, we move on to **preprocessing**, converting any remaining text-based variables to numeric formats and finalizing the **machine learning** pipeline, which includes **label encoding**, **normalization**, **standardization**, and **data scaling**. a common practice is to split the **dataframe** into **training** and **testing** sets, ensuring the model learns from the **training** set and is evaluated on fresh **test** data. using the same data for both **training** and **testing** is inadvisable, as the model would already be familiar with it. thus, evaluating the model on new data—with known outcomes—provides an accurate measure of its **performance**.
 
-![Screenshot 2025-03-06 at 20 41 31](https://github.com/user-attachments/assets/e6e074bf-3ca2-4eb1-b25a-fb4d6e8abcc6)
+![Figure_1](https://github.com/user-attachments/assets/169fc349-cfdf-4041-8d33-ec358f925b32)
 
 # ✅ CONCLUSION
 
