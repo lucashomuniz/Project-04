@@ -22,17 +22,25 @@ After that, we move on to **preprocessing**, converting any remaining text-based
 
 # ✅ CONCLUSION
 
+The analysis of the results reveals key insights into the performance of the regression models on the liver disease dataset. The correlation heatmap further highlights high correlations between features like Total_Bilirubin and Direct_Bilirubin (0.87), indicating potential multicollinearity, and weak correlations between the target and features, which explains the models' limited predictive power. The Random Forest model outperforms the others, achieving the lowest MAE (0.34041) and RMSE (0.41184), and the highest R² (0.17228), indicating it explains 17.23% of the target variance, followed closely by GBM with a slightly better MAE (0.33509) but lower R² (0.12654). KNN performs the worst, with the highest RMSE (0.44599) and lowest R² (0.02934), explaining only 2.93% of the variance. However, the overall low R² values (all below 0.18) and the clustering of predictions around 0.0 and 1.0 in the scatter plots suggest that regression is not ideal for this dataset, as the target variable is fundamentally binary (originally 1 and 2, converted to 1.0 and 0.0), making a classification approach more suitable. 
+
+![Figure_3](https://github.com/user-attachments/assets/1d7600f2-386f-4835-9ad1-2d820d95da4f)
+
+In conclusion, while Random Forest emerges as the best regression model due to its superior metrics across MAE, RMSE, and R², the overall poor performance of all models underscores the need for a different approach. Switching to a classification framework, addressing multicollinearity through feature selection or PCA, and tuning hyperparameters could significantly enhance results, better aligning with the dataset's binary nature and improving predictive accuracy.
+
+![Figure_2](https://github.com/user-attachments/assets/78f41c6e-b5ac-45ae-8dbf-0917e8e90a78)
+
 There are multiple **machine learning** algorithms applicable to various **problems**. below is an overview of **logistic regression**, **random forest**, **knn**, **decision tree**, and **svm**, outlining their main **advantages** and **disadvantages**.
 
-- **logistic regression**: a simple and fast algorithm especially suited for **binary classification**. it offers a probabilistic interpretation of predictions and evaluates the influence of each **variable**. however, it may struggle with **complex decision boundaries** and **imbalanced classes**.
+**Logistic Regression**: a simple and fast algorithm especially suited for **binary classification**. it offers a probabilistic interpretation of predictions and evaluates the influence of each **variable**. however, it may struggle with **complex decision boundaries** and **imbalanced classes**.
 
-- **random forest**: an ensemble of **decision trees**, robust against **overfitting** and effective at handling **unbalanced data**. it also identifies the most **important variables**. while powerful, training a large number of trees can be **computationally expensive**, and results can be harder to interpret.
+**Random Forest**: an ensemble of **decision trees**, robust against **overfitting** and effective at handling **unbalanced data**. it also identifies the most **important variables**. while powerful, training a large number of trees can be **computationally expensive**, and results can be harder to interpret.
 
-- **knn (k-nearest neighbors)**: a **non-parametric** approach that makes no assumptions about the data distribution. it can handle **complex decision boundaries** effectively. however, it may degrade with **high-dimensional** datasets and can be slow during prediction due to the neighbor search process.
+**KNN (k-nearest neighbors)**: a **non-parametric** approach that makes no assumptions about the data distribution. it can handle **complex decision boundaries** effectively. however, it may degrade with **high-dimensional** datasets and can be slow during prediction due to the neighbor search process.
 
-- **decision tree**: an intuitive algorithm that is easy to interpret and visualize, handling both **categorical** and **numeric variables** efficiently. it can be prone to **overfitting** and may require careful tuning to find an optimal **tree** structure.
+**Decision Tree**: an intuitive algorithm that is easy to interpret and visualize, handling both **categorical** and **numeric variables** efficiently. it can be prone to **overfitting** and may require careful tuning to find an optimal **tree** structure.
 
-- **svm (support vector machines)**: well-suited for **complex decision boundaries** and **high-dimensional** data, used in both **classification** and **regression** tasks. it is less susceptible to **overfitting**, but choosing the right **kernel** and **hyperparameters** can be challenging, and interpreting the **model** is often more difficult compared to other algorithms.
+**SVM (support vector machines)**: well-suited for **complex decision boundaries** and **high-dimensional** data, used in both **classification** and **regression** tasks. it is less susceptible to **overfitting**, but choosing the right **kernel** and **hyperparameters** can be challenging, and interpreting the **model** is often more difficult compared to other algorithms.
 
 The choice of **algorithm** depends on the **context**, **data characteristics**, and **project objectives**. careful experimentation is recommended to assess **performance** before selecting a final approach. After evaluating the five **algorithms**, **random forest** achieved the best **performance** using the **auc score**. despite these results, there are additional **optimization** possibilities, such as incorporating more **relevant variables**, tuning different **hyperparameters**, extending **training time**, and revisiting **data preprocessing**. 
 
