@@ -1,4 +1,4 @@
-# ✅ PROJECT-06
+# ✅ PROJECT-04
 
 In this project, we address the rising incidence of **liver disease**, driven by factors such as excessive **alcohol** consumption, exposure to **harmful gases**, ingestion of contaminated food, and the use of **drugs** and **anabolic steroids**. our primary objective is to develop a **machine learning** model that predicts whether a patient will develop **liver disease**, thus aiding **doctors**, **hospitals**, and **governments** in planning **health budgets** and implementing effective **prevention policies**. the desired outcome is a **classification** of “yes” or “no.”
 
