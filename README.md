@@ -8,6 +8,8 @@ The project is centered around answering critical business questions, including 
 
 **Keywords**: SQL, PowerBI, PowerQuery, DAX, Google Cloud Platform, Business Analytics, BigQuery, Data Visualization, Data Analysis.
 
+**Dashboard**: https://app.powerbi.com/reportEmbed?reportId=19b77a80-9c0f-4d1e-abbb-c31f36de517a&autoAuth=true&ctid=d69a7783-e937-4232-ba85-2098408382c8
+
 # ✅ PROCESS
 
 In **Phase 1**, **data transformations** and **manipulations** are conducted using **SQL** within the **Google Cloud Platform (GCP)** environment. The process begins by addressing the **date inconsistencies** in the “Fato_Vendas” table, where all dates were incorrectly recorded as 2019 due to a system issue. These dates are updated to **2022**, retaining their original days and months. A new column, **“vlr_margem_bruta”**, is then created, calculated from **“vlr_preco_total”**, which incorporates unit price and tax. To ensure accuracy, null values in the **“vlr_preco_unitario”** column are corrected using the **average price of the last 20 days**, segmented by **gender**, **product line**, and **branch**. Following these corrections, the **gross margin** calculation is completed. The phase concludes with the creation of a table to distribute a **monthly investment** of **R$ 10,000 per branch**, based on the **number of products sold per product line and month**. This table includes details on **relative participation** and the exact **investment allocation**.
@@ -28,13 +30,13 @@ In **Phase 1**, **data transformations** and **manipulations** are conducted usi
 
 **Phase 2A**: A **DAX measure**, **“m_faturamento”**, calculated revenue by multiplying quantities sold by unit prices using **SUMX.** A parameter allowed users to select the primary metric (**Revenue**, **Unit Price**, or **Product Quantity**) for each visualization. Analysis revealed significant growth for **PRODUCT 6** among female customers, rising from **R$57,000 in January** to **R$152,000 in March**, and for **PRODUCT 3** among male customers, increasing from **R$42,000** to **R$151,000** in the same period. These insights highlighted the strategic importance of these products for maximizing financial returns across gender segments.
 
-![Screenshot 2025-01-16 at 17 15 59](https://github.com/user-attachments/assets/6c1cd3db-e0d3-4892-b65d-cc26ffdbfcb2)
+![Screen-Recording-2025-03-11-at-15 04 00](https://github.com/user-attachments/assets/5a60f2f2-fa7a-4904-bfba-ccbdc80be7e9)
 
 **Phase 2B**: A calculated column, **“periodo_venda”**, was created to group sales into **one-hour intervals.** Using the same **parameter logic** as in previous analyses, the primary metric can be filtered dynamically. Revenue analysis identified the **7:00 PM to 8:00 PM** time slot as the most profitable, generating **R$342,170** across all branches. This period represents the **peak hour** for **Branch B** and is also one of the highest-performing periods for **Branch A.** For **Branch A**, the **12:00 PM to 1:00 PM** interval stands out as a key revenue driver, while **Branch C** experiences its highest profitability between **10:00 AM and 11:00 AM.** These insights inform the optimal allocation of **outsourced staff** to address high-demand periods, prioritizing **7:00 PM to 8:00 PM** for most branches, while also emphasizing **12:00 PM to 1:00 PM** and **10:00 AM to 11:00 AM** for specific locations.
 
-![Screenshot 2025-01-16 at 17 16 09](https://github.com/user-attachments/assets/c6dfe36a-ea01-44a9-9049-8f82c271d9e3)
+![Screen-Recording-2025-03-11-at-15 04 29](https://github.com/user-attachments/assets/f8d652fe-a0b5-4df6-b484-d18333618d00)
 
 **Phase 2C**: This analysis evaluated variables such as **“num_avaliacao,”** **“nom_filial,”** and related characteristics to detect potential satisfaction issues. The findings reveal that all branches exhibit relatively **similar score distributions**, with **Branch C** standing out for having the **highest number of 10-rated evaluations** and the **lowest incidence of 2-rated scores.** While some differences were observed, such as the predominance of **"member"** or **"normal"** clients and variations in the **most evaluated products**, no significant dissatisfaction trends were identified. **Branch C** demonstrates **stronger engagement** and **positive evaluation outcomes**, suggesting an opportunity to share its **best practices** with other branches rather than addressing isolated shortcomings.
 
-![Screenshot 2025-02-27 at 09 03 46](https://github.com/user-attachments/assets/761f0206-ebc7-4383-9d38-91e86a221402)
+![Screen-Recording-2025-03-11-at-15 04 50](https://github.com/user-attachments/assets/882406ab-2b18-43be-8c2e-dadfbb3be59a)
 
