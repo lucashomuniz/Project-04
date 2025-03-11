@@ -8,8 +8,6 @@ The project is centered around answering critical business questions, including 
 
 **Keywords**: SQL, PowerBI, PowerQuery, DAX, Google Cloud Platform, Business Analytics, BigQuery, Data Visualization, Data Analysis.
 
-**Dashboard**: https://app.powerbi.com/reportEmbed?reportId=19b77a80-9c0f-4d1e-abbb-c31f36de517a&autoAuth=true&ctid=d69a7783-e937-4232-ba85-2098408382c8
-
 # ✅ PROCESS
 
 In **Phase 1**, **data transformations** and **manipulations** are conducted using **SQL** within the **Google Cloud Platform (GCP)** environment. The process begins by addressing the **date inconsistencies** in the “Fato_Vendas” table, where all dates were incorrectly recorded as 2019 due to a system issue. These dates are updated to **2022**, retaining their original days and months. A new column, **“vlr_margem_bruta”**, is then created, calculated from **“vlr_preco_total”**, which incorporates unit price and tax. To ensure accuracy, null values in the **“vlr_preco_unitario”** column are corrected using the **average price of the last 20 days**, segmented by **gender**, **product line**, and **branch**. Following these corrections, the **gross margin** calculation is completed. The phase concludes with the creation of a table to distribute a **monthly investment** of **R$ 10,000 per branch**, based on the **number of products sold per product line and month**. This table includes details on **relative participation** and the exact **investment allocation**.
@@ -39,4 +37,6 @@ In **Phase 1**, **data transformations** and **manipulations** are conducted usi
 **Phase 2C**: This analysis evaluated variables such as **“num_avaliacao,”** **“nom_filial,”** and related characteristics to detect potential satisfaction issues. The findings reveal that all branches exhibit relatively **similar score distributions**, with **Branch C** standing out for having the **highest number of 10-rated evaluations** and the **lowest incidence of 2-rated scores.** While some differences were observed, such as the predominance of **"member"** or **"normal"** clients and variations in the **most evaluated products**, no significant dissatisfaction trends were identified. **Branch C** demonstrates **stronger engagement** and **positive evaluation outcomes**, suggesting an opportunity to share its **best practices** with other branches rather than addressing isolated shortcomings.
 
 ![Screen-Recording-2025-03-11-at-15 04 50](https://github.com/user-attachments/assets/882406ab-2b18-43be-8c2e-dadfbb3be59a)
+
+**Dashboard**: https://app.powerbi.com/reportEmbed?reportId=19b77a80-9c0f-4d1e-abbb-c31f36de517a&autoAuth=true&ctid=d69a7783-e937-4232-ba85-2098408382c8
 
