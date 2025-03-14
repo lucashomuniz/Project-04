@@ -38,5 +38,4 @@ In **Phase 1**, **data transformations** and **manipulations** are conducted usi
 
 ![Screen-Recording-2025-03-11-at-15 04 50](https://github.com/user-attachments/assets/882406ab-2b18-43be-8c2e-dadfbb3be59a)
 
-**Dashboard**: https://app.powerbi.com/reportEmbed?reportId=19b77a80-9c0f-4d1e-abbb-c31f36de517a&autoAuth=true&ctid=d69a7783-e937-4232-ba85-2098408382c8
-
+**Dashboard**: https://app.powerbi.com/view?r=eyJrIjoiYjYxMWNmZDMtMDcxYy00YjIwLTliODgtMWRjMWNhYWY2YjRiIiwidCI6ImQ2OWE3NzgzLWU5MzctNDIzMi1iYTg1LTIwOTg0MDgzODJjOCJ9
