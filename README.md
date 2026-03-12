@@ -24,4 +24,4 @@ At the bottom of the dashboard, a data matrix summarizes the weekly values of ke
 
 The analytical solution developed in this project enabled a detailed assessment of the relationship between historical volumes and future forecasts, ensuring greater reliability in decision-making. The application of confidence intervals facilitated a robust statistical analysis, allowing the identification of patterns, atypical variations, and the accuracy of predictive models. As a result, the planning team can make more informed decisions, reducing uncertainties and optimizing demand management. This approach strengthens the company’s analytical and strategic capabilities, improving not only the planning process but also the continuous calibration of machine learning models, ensuring increasingly accurate forecasts aligned with market realities.
 
-**Dashboard**: https://app.powerbi.com/view?r=eyJrIjoiYjYxMWNmZDMtMDcxYy00YjIwLTliODgtMWRjMWNhYWY2YjRiIiwidCI6ImQ2OWE3NzgzLWU5MzctNDIzMi1iYTg1LTIwOTg0MDgzODJjOCJ9
+**Dashboard**: https://app.powerbi.com/reportEmbed?reportId=46f0cdd8-3368-487d-b514-c3cb8b3bd0ea&autoAuth=true&ctid=ed8112cd-3759-41ec-b020-5d090181c999
